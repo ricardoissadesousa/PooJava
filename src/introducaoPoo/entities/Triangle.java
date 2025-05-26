@@ -1,4 +1,4 @@
-package introduçãoPoo.entities;
+package introducaoPoo.entities;
 
 public class Triangle {
     public double a;
