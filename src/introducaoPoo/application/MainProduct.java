@@ -16,17 +16,16 @@ public class MainProduct {
         String name = sc.nextLine();
         System.out.println("Price: ");
         double price = sc.nextDouble();
-        System.out.println("Quantity: ");
-        int quantity = sc.nextInt();
 
-       Product product = new Product(name,price,quantity);
+
+       Product product = new Product(name,price);
 
         System.out.println();
         System.out.println("Product Data: "+product);
 
         System.out.println();
         System.out.println("Enter the number of product to be added in stock: ");
-         quantity = sc.nextInt();
+        int  quantity = sc.nextInt();
         product.addProduct(quantity);
 
         System.out.println();
