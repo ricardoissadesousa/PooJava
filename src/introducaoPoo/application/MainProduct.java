@@ -16,9 +16,14 @@ public class MainProduct {
         String name = sc.nextLine();
         System.out.println("Price: ");
         double price = sc.nextDouble();
-
-
        Product product = new Product(name,price);
+
+
+
+       product.setName("computador");
+        System.out.println("Upadate Name: "+product.getName());
+       product.setPrice(1200);
+
 
         System.out.println();
         System.out.println("Product Data: "+product);
