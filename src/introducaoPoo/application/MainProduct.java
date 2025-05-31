@@ -20,11 +20,6 @@ public class MainProduct {
 
 
 
-       product.setName("computador");
-        System.out.println("Upadate Name: "+product.getName());
-       product.setPrice(1200);
-
-
         System.out.println();
         System.out.println("Product Data: "+product);
 
